@@ -1,0 +1,55 @@
+body {
+    padding: 30px 100px 30px 100px;
+    background-color: blue;
+    background-image: url(blue-fireworks.jpeg);
+    background-size: cover;
+    font-family: 'Damion', cursive;
+}
+
+.project_section {
+    color: aqua;
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.project_legend {
+    color: aqua;
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.project_heading {
+    color: aqua;
+    background-color: blue;
+    text-align: center;
+}
+
+.project_button {
+    color: blue;
+    background-color: aqua;
+}
+
+.project_img {
+    width: 500px;
+    min-width: 220px;
+}
+
+@media(max-width:610px) {
+    .project_img {
+        width: 500px;
+        min-width: 320px;
+        margin-top: 10px;
+    }
+}
+
+legend {
+    text-align: center;
+}
